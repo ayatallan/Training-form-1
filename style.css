@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(246, 236, 238);
+    color: rgb(199, 42, 68);
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+
+}
+
+h1{
+    font-family: cursive;
+    color: rgb(199, 42, 68);
+    text-align: center;
+margin-bottom: 50px;
+}
+hr {
+    height: 2px;
+    background-color: rgb(209, 193, 193);
+    border-color: rgb(212, 194, 194);
+    width: 50%;
+    margin: 40px 0px 20px 0px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+}
+.part1>input{
+    width: 400px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+select{
+    width: 400px;
+    height: 40px;
+}
+
+.part2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.part2>input {
+    width: 10px;
+    height: 10px;
+
+
+}
+#submit{
+   background-color: rgb(228, 209, 212); 
+   width: 250px;
+   border: 1px solid rgb(155, 113, 113);
+   height: 40px;
+}
