@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,72 +8,74 @@
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Hello in our regisration form !</h1>
-<form action=" https://formspree.io/ " method="post">
-<div class="part1">
-<label for="fullname">Enter Full Name</label>
-<input type="text" name="fullname" id="fullname" placeholder="Your Name" required>
+    <form action="https://formspree.io/f/mdojoayw" method="post">
+        <div class="part1">
+            <label for="fullname">Enter Full Name</label>
+            <input type="text" name="fullname" id="fullname" placeholder="Your Name" required>
 
-<label for="Email">Enter Your Email</label>
-<input type="email" name="Email" id="Email" placeholder="Email@example.com" required>
+            <label for="Email">Enter Your Email</label>
+            <input type="email" name="Email" id="Email" placeholder="Email@example.com" required>
 
-<label for="vEmail">Email validation</label>
-<input type="email" name="vEmail" id="vEmail" placeholder="Email@example.com" required>
-
-
-<label for="password">Enter Your Password</label>
-<input type="password" name="password" id="password" placeholder="Enter password" required>
+            <label for="vEmail">Email validation</label>
+            <input type="email" name="vEmail" id="vEmail" placeholder="Email@example.com" required>
 
 
-<label for="vpass">confirm password</label>
-<input type="password" name="vpass" id="vpass" placeholder="Confirm password" required>
-
-<label for="number">Enter your phone number</label>
-<input type="number" name="number" id="number" placeholder="Enter you phone number" required>
-
-<label for="vnumber">Confirm your phone number</label>
-<input type="number" name="vnumber" id="vnumber" placeholder="Confirm your phone number" required>
+            <label for="password">Enter Your Password</label>
+            <input type="password" name="password" id="password" placeholder="Enter password" minlength="8" required>
 
 
-<label for="birth">Enter your date of birth</label>
-<input type="date" name="birth" id="birth">
+            <label for="vpass">confirm password</label>
+            <input type="password" name="vpass" id="vpass" placeholder="Confirm password" minlength="8" required>
 
-<label for="countries">chose country</label>
-<select name="countries" id="countries">
-<option value="selected" selected>(select one)</option>
-<option value="Algeria">Algeria</option>
-<option value="Armenia">Armenia</option>
-<option value="Azerbaijan">Azerbaijan</option>
-<option value="Iran">Iran</option>
-<option value="Palesine">Palestine</option>
-<option value="Egypt">Egypt</option>
-<option value="Jordan">Jordan</option>
-<option value="Tunisia">Tunisia</option>
-<option value="United Arab Emirates">United Arab Emirates</option>
-<option value="Saudi Arabia">Saudi Arabia</option>
-</select>
+            <label for="number">Enter your phone number</label>
+            <input type="tel" name="number" id="number" placeholder="Enter you phone number" required>
 
-</div>
-<hr>
-<div class="part2">
-
-    <label><input type="radio" name="Free"/> Free</label>
-    <label><input type="radio" name="Pro"/>Pro</label>
-    <label>
-        <input type="checkbox" name="terms" required /> I accept the <a href="#">terms and
-            conditions</a>
-    </label>
-
-   
-</div>
+            <label for="vnumber">Confirm your phone number</label>
+            <input type="tel" name="vnumber" id="vnumber" placeholder="Confirm your phone number" required>
 
 
+            <label for="birth">Enter your date of birth</label>
+            <input type="date" name="birth" id="birth">
 
-<button type="submit" name="submit" id="submit">submit</button>
+            <label for="countries">chose country</label>
+            <select name="countries" id="countries">
+                <option value="selected" selected>(select one)</option>
+                <option value="Algeria">Algeria</option>
+                <option value="Armenia">Armenia</option>
+                <option value="Azerbaijan">Azerbaijan</option>
+                <option value="Iran">Iran</option>
+                <option value="Palesine">Palestine</option>
+                <option value="Egypt">Egypt</option>
+                <option value="Jordan">Jordan</option>
+                <option value="Tunisia">Tunisia</option>
+                <option value="United Arab Emirates">United Arab Emirates</option>
+                <option value="Saudi Arabia">Saudi Arabia</option>
+            </select>
 
-</form>
+        </div>
+        <hr>
+        <div class="part2">
+
+            <label><input type="radio" name="Type" /> Free</label>
+            <label><input type="radio" name="Type" />Pro</label>
+            <label>
+                <input type="checkbox" name="terms" required /> I accept the <a href="#">terms and
+                    conditions</a>
+            </label>
+
+
+        </div>
+
+
+
+        <button type="submit" name="submit" id="submit">submit</button>
+
+    </form>
 
 
 </body>
+
 </html>
